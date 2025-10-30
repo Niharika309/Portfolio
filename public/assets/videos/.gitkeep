@@ -1,0 +1,18 @@
+# Videos Folder
+
+This folder is for storing video files used in the application.
+
+## Usage
+- Place your video files (mp4, webm, etc.) in this folder
+- Reference them in components using `/assets/videos/filename.mp4`
+- Recommended formats: MP4, WebM for cross-browser compatibility
+
+## Example
+```jsx
+<source src="/assets/videos/demo-video.mp4" type="video/mp4" />
+```
+
+## File Naming Convention
+- Use lowercase with hyphens: `product-demo.mp4`
+- Keep file sizes optimized for web (under 10MB recommended)
+- Provide multiple formats when possible for better compatibility
